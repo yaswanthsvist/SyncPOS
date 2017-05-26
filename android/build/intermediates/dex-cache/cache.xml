@@ -3,39 +3,12 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_ee5d15f3179271de8dd30a89e05e3ef6268583db.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_ccfe4e1d2e41bf283f7ad21d4c1b1bc35f6dd783.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_7d1d5e6b30012dbc21e65140ac9790acaba5a592.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.0.1_bab5e1bda59dbab72403949babcdaaa86f14d09a.jar" />
+        revision="25.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.3.1_900e197283c7b7470086d6c764b9757cffb2ccb4.jar" />
     </item>
     <item
         is-multidex="false"
@@ -48,21 +21,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\yaswanthsvist\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_d734cb12e6bf9eb3a6b04eba8075f3248a6527ac.jar" />
+        revision="25.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.3.1_549d1c55cfd7307c8c9af257e5c1e91d4979e481.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.0.1\jars\classes.jar"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.0.1_cec1474dc5db41181311fe2b975dbcf094e3cb90.jar" />
+        revision="25.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.0.1_2264fc8a7ff8c19186c68992ab08ce39de37c1b7.jar" />
     </item>
     <item
         is-multidex="false"
@@ -75,15 +48,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_10ef82b669e846d61e93c06b275b14d452067ffb.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
         jumboMode="false"
         optimize="true"
@@ -93,12 +57,372 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.0.1_7d804e0815f417139a1efa43a72862d82d8fea9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_cb19055c01d386b9580d526f746e35ed37e3f2d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_6b1d6717badb6d7e2fb64f17813e85fc478c4f91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.3.1_22af3659a94d2e27b392c5c94736d23f685d713b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.0.1_b694ee56ae4c835dc21e166e78b2e8625524a08a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.0.1_7d804e0815f417139a1efa43a72862d82d8fea9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\library-2.4.0_ab472f53ae65dee0ef1417b3f8a790bb8dc20e2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.aurelhubert\ahbottomnavigation\2.0.6\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c8ba41bea7f78f8bdf3a803b9d08eb3fff416706">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.aurelhubert-ahbottomnavigation-2.0.6_6a9a3af083da6510adb900d5f0d88ca9370d8985.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_cb19055c01d386b9580d526f746e35ed37e3f2d6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.3.1_dae222f7aac8a7088a3d4e6798bc9b403de4e68b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_3f934160c4890ced71854afefe3973762398f2c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.0.1_b694ee56ae4c835dc21e166e78b2e8625524a08a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.44.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="af9665a44df26b4098e24c934c1109507845ef5e">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.44.0_d574e4ad7211519bb8c7b564d69868d66ccf710e.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.1"
         sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
         <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_3f934160c4890ced71854afefe3973762398f2c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.0.1_55bc8442a0c59d33606030b867faff7b69e3a28a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.3.1_3a87256a868e221a34c82929b73e72f851474146.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.44.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="af9665a44df26b4098e24c934c1109507845ef5e">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.44.0_d574e4ad7211519bb8c7b564d69868d66ccf710e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.3.1_4f21aa664ca7bf2fe961bb15400d8fad52442ba6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.0.1_55bc8442a0c59d33606030b867faff7b69e3a28a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.3.1_9f32214e2535da5438dfb1690c3ed43f1ffcf986.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.3.1_b2cfc59b36814c8d862b43a0aa167a50398f5771.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_ccfe4e1d2e41bf283f7ad21d4c1b1bc35f6dd783.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.44.0\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5_49a6350d9910d6779fd5f0d25937d1972366f2d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.0.1_bab5e1bda59dbab72403949babcdaaa86f14d09a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.0.1_cec1474dc5db41181311fe2b975dbcf094e3cb90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.3.1_261f96db8f895ef3030e2a23d9ed0d6197ec48e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.0.1_bab5e1bda59dbab72403949babcdaaa86f14d09a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_99cee6c64723464abb7faf5575863ed2e71ecae9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1_f7541f25e07a5a1eedd142828ccba3c4c930c3f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\transition\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.3.1_bd883e8275804dc1167335b31d1492c0438fef0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\design\25.3.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.3.1_29c9733ae5e9088e30a19303b7f73f7cae7a9de0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1_f7541f25e07a5a1eedd142828ccba3c4c930c3f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.44.0\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5_49a6350d9910d6779fd5f0d25937d1972366f2d1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0_589a285d56c5320e0c05787e229343caeda9b6c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0_589a285d56c5320e0c05787e229343caeda9b6c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.balysv.materialmenu\material-menu\1.5.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1f6ff1728c297524e82b875ce2dfda946f4bca41">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.balysv.materialmenu-material-menu-1.5.4_377018e26fdaf4f0bb676d4c0626f6feffe0e2ac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.balysv.materialmenu\material-menu-toolbar\1.5.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="55d7bf547c88cb7c8c7c5cdbf3b06dd66c9750f8">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.balysv.materialmenu-material-menu-toolbar-1.5.4_a12359ea788bc9ac687dd7784cf25ec40f1010d0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1_b1816f32102fbe8534e58d65e836b132a8650b31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_d5c74340271ea6b79345cb6c0eed841397340334.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\SyncPOS\react-native-navigation\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b81040db3212ed8371f57f5848a3e918403a14d0">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\SyncPOS-react-native-navigation-unspecified_2318e1e70a223b8ee8b32987d7d42787857def56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\yaswanthsvist\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_7e0311e0c1bdcda7d4b0883e509d54473a0c6750.jar" />
     </item>
     <item
         is-multidex="false"
@@ -120,48 +444,30 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.0.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_cb19055c01d386b9580d526f746e35ed37e3f2d6.jar" />
+        revision="25.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.0.1_cec1474dc5db41181311fe2b975dbcf094e3cb90.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.44.0\jars\classes.jar"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="af9665a44df26b4098e24c934c1109507845ef5e">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.44.0_d574e4ad7211519bb8c7b564d69868d66ccf710e.jar" />
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_ccfe4e1d2e41bf283f7ad21d4c1b1bc35f6dd783.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.0.1\jars\classes.jar"
+        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.1\jars\classes.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.0.1_55bc8442a0c59d33606030b867faff7b69e3a28a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1_f7541f25e07a5a1eedd142828ccba3c4c930c3f7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.0.1_b694ee56ae4c835dc21e166e78b2e8625524a08a.jar" />
+        revision="25.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.3.1_222d6597e22511921e40ea6adfd8ee13e23472e1.jar" />
     </item>
     <item
         is-multidex="false"
@@ -174,30 +480,12 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.44.0\jars\libs\infer-annotations-1.5.jar"
+        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
         jumboMode="false"
         optimize="true"
-        revision="23.0.1"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5_49a6350d9910d6779fd5f0d25937d1972366f2d1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.0.1_7d804e0815f417139a1efa43a72862d82d8fea9e.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\yaswanthsvist\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.1"
-        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0_589a285d56c5320e0c05787e229343caeda9b6c3.jar" />
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="C:\Users\yaswanthsvist\Documents\work\react-native\SyncPOS\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_9449190b50ae4c64efb80e36aa7979e628b59d55.jar" />
     </item>
 
 </items>
