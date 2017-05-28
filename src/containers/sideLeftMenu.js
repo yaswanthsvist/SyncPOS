@@ -38,27 +38,42 @@ export class sideLeftMenuScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={{flex:5}}>
+        <View style={styles.sideMenuLogo}>
           <Text style={styles.instructions}>
-            Welcome to SyncPOS!
+            
           </Text>
         </View>
-        <View style={styles.loginButtonView}>
-          <Button onPress={()=>this.gotoScreen('pos')} title="pos"/>
-          <Button onPress={()=>this.gotoScreen('inventory')} title="inventory"/>
-          <Button onPress={()=>this.gotoScreen('logout')} title="logout"/>
+        <View style={styles.menuOptions}>
+          <View style={styles.menuOption}>
+            <Button  onPress={()=>this.gotoScreen('pos')} title="pos"/>
+          </View>
+          <View style={styles.menuOption}>
+            <Button onPress={()=>this.gotoScreen('inventory')} title="inventory"/>
+          </View>
+          <View style={styles.menuOption}>
+            <Button onPress={()=>this.gotoScreen('logout')} title="logout"/>
+          </View>
         </View>
       </View>
     );
   }
 }
 const styles = StyleSheet.create({
+  sideMenuLogo: {
+    flex: 3,
+    backgroundColor:'#3d5afe' //secondary
+  },
   container: {
     flex: 1,
-    backgroundColor:"gold",
+    width:300,
   },
-  loginButtonView: {
-    flex:5
+  menuOption:{
+    marginTop:20,
+    backgroundColor:'#F5F5F6'
+  },
+  menuOptions: {
+    flex:8,
+    backgroundColor:"#F5F5F6",
   },
   instructions: {
     textAlign: 'center',

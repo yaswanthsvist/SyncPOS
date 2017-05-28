@@ -38,8 +38,6 @@ export class loginScreen extends Component {
       title: "POS", // navigation bar title of the pushed screen (optional)
       animated: true, // does the push have transition animation or does it happen immediately (optional)
       passProps:{loggedIn:true},
-      backButtonHidden: true, // hide the back button altogether (optional)
-      navigatorButtons: {} // override the nav buttons for the pushed screen (optional)
     });
   }
   render() {
@@ -61,6 +59,7 @@ export class loginScreen extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor:'#E1E2E1'
   },
   loginButtonView: {
     flex:5

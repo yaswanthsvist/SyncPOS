@@ -41,7 +41,6 @@ Navigation.startTabBasedApp({
       selectedIcon: require('./assets/img/pos.png'),
       title:'POS',
       passProps:{loggedIn:false},
-      navigatorButtons: {}
     },
     {
       label:'inventory',
@@ -49,7 +48,6 @@ Navigation.startTabBasedApp({
       icon: require('./assets/img/inventory.png'),
       selectedIcon: require('./assets/img/inventory.png'),
       title:'INVENTORY',
-      navigatorButtons: {}
     }
   ],
   tabsStyle: { // optional, add this if you want to style the tab bar beyond the defaults
@@ -64,7 +62,8 @@ Navigation.startTabBasedApp({
     left:{
       screen:"sideLeftMenuScreen",
       passProps:{}
-    }
+    },
+    disableOpenGesture: true 
   }
 });
 

@@ -1,0 +1,13 @@
+#background-color			#suggested font color 
+
+primary: #64dd17			white-large(X) white-small(X) black-large(45) black-small(59)
+primary-light: #9cff57		white-large(X) white-small(X) black-large(43) black-small(55)
+primary-dark: #1faa00		white-large(100) white-small(X) black-large(52) black-small(70)
+
+Secondary: #3d5afe 			white-large(64%) white-small(91) black-large(66) black-small(X)
+secondary-light: #8187ff 	white-large(100) white-small(X)  black-large(52) black-small(70)
+secondary-dark: #0031ca		white-large(47) white-small(64) black-large(X) black-small(X)
+
+primary-fill:	#E1E2E1
+secondar-fill:	#F5F5F6
+
