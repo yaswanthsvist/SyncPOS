@@ -17,22 +17,43 @@ export default class posScreen extends Component {
     tabBarHidden: false
   } // override the navigator style for the pushed screen (optional)
   gotoScreen(screen='loginScreen'){
-    this.props.navigator.push({
+    this.props.navigator.resetTo({
       screen: screen, // unique ID registered with Navigation.registerScreen
-      title: undefined, // navigation bar title of the pushed screen (optional)
       animated: true, // does the push have transition animation or does it happen immediately (optional)
       backButtonHidden: true, // hide the back button altogether (optional)
-      navigatorButtons: {} // override the nav buttons for the pushed screen (optional)
     });
   }
   constructor(props){
     super(props);
+    this.state = {showPage: false};
+    this.state.list=["cat","dog"];
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
-    if(props.loggedIn!==true){
+    if(props.loggedIn==false){
+      console.log("gotoScreen logout --force");
       this.gotoScreen();
     }    
   }
   onNavigatorEvent(event) {
+    if(event.type=="DeepLink"){
+      const parts = event.link.split('/'); // Link parts
+      switch(parts[0]){
+        case "pos":
+      //     this.gotoScreen('posScreen');
+           this.props.navigator.switchToTab({
+            tabIndex: 0 // (optional) if missing, this screen's tab will become selected
+           });
+            break;
+        case "inventory":
+     //      this.gotoScreen('inventoryScreen');
+           this.props.navigator.switchToTab({
+            tabIndex: 1 // (optional) if missing, this screen's tab will become selected
+           });
+           break;
+        case "logout":
+           this.gotoScreen('loginScreen');
+            break;
+      }
+    }
     switch(event.id) {
       case 'willAppear':
         break;
@@ -45,6 +66,7 @@ export default class posScreen extends Component {
     }
   }
   render() {
+  console.log("pos render")
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>

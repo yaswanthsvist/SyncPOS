@@ -7,12 +7,7 @@ import {
   View
 } from 'react-native';
 import { Navigation } from 'react-native-navigation';
-export class loginScreen extends Component {
-  static navigatorStyle = {
-    drawUnderNavBar: false,
-    tabBarHidden: true,
-    navBarHidden: true,
-  };
+export class sideLeftMenuScreen extends Component {
   constructor(props){
     super(props);
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
@@ -31,19 +26,16 @@ export class loginScreen extends Component {
   }
   componentWillUnmount(){
   }
-  gotoPosScreen(){
-    console.log("gotoPosScreen");
-    this.props.navigator.resetTo({
-      screen: 'posScreen', // unique ID registered with Navigation.registerScreen
-      title: "POS", // navigation bar title of the pushed screen (optional)
-      animated: true, // does the push have transition animation or does it happen immediately (optional)
-      passProps:{loggedIn:true},
-      backButtonHidden: true, // hide the back button altogether (optional)
-      navigatorButtons: {} // override the nav buttons for the pushed screen (optional)
+  gotoScreen(deepLink){
+    this.props.navigator.handleDeepLink({
+      link: deepLink, // unique ID registered with Navigation.registerScreen
+    });
+    this.props.navigator.toggleDrawer({
+      side: 'left', // the side of the drawer since you can have two, 'left' / 'right'
+      animated: true, // does the toggle have transition animation or does it happen immediately (optional)
     });
   }
   render() {
-  console.log("login render")
     return (
       <View style={styles.container}>
         <View style={{flex:5}}>
@@ -52,7 +44,9 @@ export class loginScreen extends Component {
           </Text>
         </View>
         <View style={styles.loginButtonView}>
-          <Button onPress={()=>this.gotoPosScreen()} title="login"/>
+          <Button onPress={()=>this.gotoScreen('pos')} title="pos"/>
+          <Button onPress={()=>this.gotoScreen('inventory')} title="inventory"/>
+          <Button onPress={()=>this.gotoScreen('logout')} title="logout"/>
         </View>
       </View>
     );
@@ -61,6 +55,7 @@ export class loginScreen extends Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    backgroundColor:"gold",
   },
   loginButtonView: {
     flex:5

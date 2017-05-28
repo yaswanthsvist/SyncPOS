@@ -12,16 +12,25 @@ import {
   Button,
   View
 } from 'react-native';
+import { applyMiddleware, createStore } from 'redux';
+//import logger from 'redux-logger'
+/*const store = createStore(
+  reducer,
+  applyMiddleware(logger)
+)
+*/ 
 import { Navigation } from 'react-native-navigation';
 //import { StackNavigator } from 'react-navigation';
 //import tabNavigator from './tab';
 import inventoryScreen from './inventory';
 import posScreen from './pos';
+import {sideLeftMenuScreen} from './containers/sideLeftMenu';
 import {loginScreen} from './login';
 
 Navigation.registerComponent('posScreen', () => posScreen);
 Navigation.registerComponent('inventoryScreen', () => inventoryScreen);
 Navigation.registerComponent('loginScreen', () => loginScreen);
+Navigation.registerComponent('sideLeftMenuScreen', () => sideLeftMenuScreen);
 
 Navigation.startTabBasedApp({
   tabs: [
@@ -31,6 +40,7 @@ Navigation.startTabBasedApp({
       icon: require('./assets/img/pos.png'),
       selectedIcon: require('./assets/img/pos.png'),
       title:'POS',
+      passProps:{loggedIn:false},
       navigatorButtons: {}
     },
     {
@@ -49,6 +59,12 @@ Navigation.startTabBasedApp({
   },
   appStyle: {
     orientation: 'portrait' // Sets a specific orientation to the entire app. Default: 'auto'. Supported values: 'auto', 'landscape', 'portrait'
+  },
+  drawer:{
+    left:{
+      screen:"sideLeftMenuScreen",
+      passProps:{}
+    }
   }
 });
 
