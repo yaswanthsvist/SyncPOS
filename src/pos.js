@@ -6,6 +6,7 @@ import {
   Button,
   View
 } from 'react-native';
+import { Navigation } from 'react-native-navigation';
 
 export default class posScreen extends Component {
 /*  static navigationOptions = {
@@ -18,14 +19,16 @@ export default class posScreen extends Component {
   } // override the navigator style for the pushed screen (optional)
   static navigatorButtons = { leftButtons: [ {
    id: 'sideMenu',
-    icon:require('./assets/img/sideMenu.png') } ] 
+    icon:require('./assets/img/menu.png') } ] 
   };
   
-  gotoScreen(screen='loginScreen'){
-    this.props.navigator.resetTo({
-      screen: screen, // unique ID registered with Navigation.registerScreen
-      animated: true, // does the push have transition animation or does it happen immediately (optional)
-      backButtonHidden: true, // hide the back button altogether (optional)
+  logout(screen='loginScreen'){
+    Navigation.startSingleScreenApp({
+      screen: {
+        screen: 'splashScreen', // unique ID registered with Navigation.registerScreen
+        navigatorStyle: {}, // override the navigator style for the screen, see "Styling the navigator" below (optional)
+        navigatorButtons: {} // override the nav buttons for the screen, see "Adding buttons to the navigator" below (optional)
+      }
     });
   }
   constructor(props){
@@ -53,7 +56,7 @@ export default class posScreen extends Component {
            });
            break;
         case "logout":
-           this.gotoScreen('loginScreen');
+           this.logout('loginScreen');
             break;
       }
     }
