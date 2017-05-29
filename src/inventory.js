@@ -13,15 +13,25 @@ export default class inventoryScreen extends Component {
 */
   static navigatorButtons = { leftButtons: [ {
     id: 'sideMenu',
-    icon:require('./assets/img/sideMenu.png') } ] 
+    icon:require('./assets/img/menu.png') } ] 
   };
- gotoScreen(screen='loginScreen'){
+  gotoScreen(screen='loginScreen'){
     this.props.navigator.resetTo({
       screen: screen, // unique ID registered with Navigation.registerScreen
       animated: true, // does the push have transition animation or does it happen immediately (optional)
       backButtonHidden: true, // hide the back button altogether (optional)
     });
   }
+  logout(){
+    Navigation.startSingleScreenApp({
+      screen: {
+        screen: 'loginScreen', // unique ID registered with Navigation.registerScreen
+        navigatorStyle: {}, // override the navigator style for the screen, see "Styling the navigator" below (optional)
+        navigatorButtons: {} // override the nav buttons for the screen, see "Adding buttons to the navigator" below (optional)
+      }
+    });
+  }
+
   constructor(props){
     super(props);
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
@@ -44,7 +54,7 @@ export default class inventoryScreen extends Component {
            break;
         case "logout":
            console.log("deeplink 'logout' in inventory");
-           this.gotoScreen('loginScreen');
+           this.logout();
             break;
       }
     }
