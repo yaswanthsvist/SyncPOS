@@ -17,6 +17,45 @@ export class loginScreen extends Component {
     super(props);
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
   }
+  openMainApp(){
+    Navigation.startTabBasedApp({
+      tabs: [
+        {
+          label:'pos',
+          screen:'posScreen',
+          icon: require('./assets/img/pos.png'),
+          selectedIcon: require('./assets/img/pos.png'),
+          title:'POS',
+        },
+        {
+          label:'inventory',
+          screen:'inventoryScreen',
+          icon: require('./assets/img/inventory.png'),
+          selectedIcon: require('./assets/img/inventory.png'),
+          title:'INVENTORY',
+        }
+      ],
+      tabsStyle: { // optional, add this if you want to style the tab bar beyond the defaults
+        tabBarButtonColor: '#ffff00', // optional, change the color of the tab icons and text (also unselected)
+        tabBarSelectedButtonColor: '#ff9900', // optional, change the color of the selected tab icon and text (only selected)
+        tabBarBackgroundColor: '#551A8B' // optional, change the background color of the tab bar
+      },
+      appStyle: {
+        orientation: 'portrait' // Sets a specific orientation to the entire app. Default: 'auto'. Supported values: 'auto', 'landscape', 'portrait'
+      },
+      drawer:{
+        left:{
+          screen:"sideLeftMenuScreen",
+          passProps:{}
+        },
+      }
+    });
+  }
+
+  onLogin(){
+    this.openMainApp();
+  }
+
   onNavigatorEvent(event) {
     switch(event.id) {
       case 'willAppear':
@@ -50,7 +89,7 @@ export class loginScreen extends Component {
           </Text>
         </View>
         <View style={styles.loginButtonView}>
-          <Button onPress={()=>this.gotoPosScreen()} title="login"/>
+          <Button onPress={()=>this.onLogin()} title="login"/>
         </View>
       </View>
     );
