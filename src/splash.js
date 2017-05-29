@@ -18,7 +18,7 @@ export class splashScreen extends Component {
     this.props.navigator.resetTo({
       screen: "loginScreen", // unique ID registered with Navigation.registerScreen
       title: "Login", // title of the screen as appears in the nav bar (optional)
-      passProps: {}, // simple serializable object that will pass as props to the modal (optional)
+      passProps: {type:'screen'}, // simple serializable object that will pass as props to the modal (optional)
       navigatorStyle: {}, // override the navigator style for the screen, see "Styling the navigator" below (optional)
       navigatorButtons: {}, // override the nav buttons for the screen, see "Adding buttons to the navigator" below (optional)
       animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')

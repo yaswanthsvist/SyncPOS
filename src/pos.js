@@ -22,7 +22,7 @@ export default class posScreen extends Component {
     icon:require('./assets/img/menu.png') } ] 
   };
   
-  logout(screen='loginScreen'){
+  logout(){
     Navigation.startSingleScreenApp({
       screen: {
         screen: 'loginScreen', // unique ID registered with Navigation.registerScreen

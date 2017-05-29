@@ -53,7 +53,15 @@ export class loginScreen extends Component {
   }
 
   onLogin(){
-    this.openMainApp();
+    switch(this.props.type){
+      case "screen":
+        this.openMainApp();
+        break;
+      case "modal":
+        this.props.navigator.dismissModal({
+          animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
+        });
+        break;
   }
 
   onNavigatorEvent(event) {
