@@ -9,3 +9,4 @@ port=8088
 shake and select "dev settings" option in mobile(in Hybrid app).
 add ip address in hot ip and port option.
 
+Please use the .meterialdesign file for color standerds followed in this project.
