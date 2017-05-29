@@ -20,66 +20,26 @@ import { applyMiddleware, createStore } from 'redux';
 )
 */ 
 import { Navigation } from 'react-native-navigation';
-//import { StackNavigator } from 'react-navigation';
-//import tabNavigator from './tab';
+import {splashScreen} from './splash';
+import {loginScreen} from './login';
 import inventoryScreen from './inventory';
 import posScreen from './pos';
 import {sideLeftMenuScreen} from './containers/sideLeftMenu';
-import {loginScreen} from './login';
 
+Navigation.registerComponent('splashScreen', () => splashScreen);
+Navigation.registerComponent('loginScreen', () => loginScreen);
 Navigation.registerComponent('posScreen', () => posScreen);
 Navigation.registerComponent('inventoryScreen', () => inventoryScreen);
-Navigation.registerComponent('loginScreen', () => loginScreen);
 Navigation.registerComponent('sideLeftMenuScreen', () => sideLeftMenuScreen);
 
-Navigation.startTabBasedApp({
-  tabs: [
-    {
-      label:'pos',
-      screen:'posScreen',
-      icon: require('./assets/img/pos.png'),
-      selectedIcon: require('./assets/img/pos.png'),
-      title:'POS',
-      passProps:{loggedIn:false},
-    },
-    {
-      label:'inventory',
-      screen:'inventoryScreen',
-      icon: require('./assets/img/inventory.png'),
-      selectedIcon: require('./assets/img/inventory.png'),
-      title:'INVENTORY',
-    }
-  ],
-  tabsStyle: { // optional, add this if you want to style the tab bar beyond the defaults
-    tabBarButtonColor: '#ffff00', // optional, change the color of the tab icons and text (also unselected)
-    tabBarSelectedButtonColor: '#ff9900', // optional, change the color of the selected tab icon and text (only selected)
-    tabBarBackgroundColor: '#551A8B' // optional, change the background color of the tab bar
-  },
-  appStyle: {
-    orientation: 'portrait' // Sets a specific orientation to the entire app. Default: 'auto'. Supported values: 'auto', 'landscape', 'portrait'
-  },
-  drawer:{
-    left:{
-      screen:"sideLeftMenuScreen",
-      passProps:{}
-    },
-    disableOpenGesture: true 
+Navigation.startSingleScreenApp({
+  screen: {
+    screen: 'splashScreen', // unique ID registered with Navigation.registerScreen
+    navigatorStyle: {}, // override the navigator style for the screen, see "Styling the navigator" below (optional)
+    navigatorButtons: {} // override the nav buttons for the screen, see "Adding buttons to the navigator" below (optional)
   }
 });
 
-/*const posApp = StackNavigator({
-  home: { screen: loginScreen },
-  pos: { screen: posScreen },
-  inventory: { screen: inventoryScreen },
-  tab:{screen:tabNavigator},
-}
-,{
-  headerMode:'none',
-  initialRouteName :"home"
-}
-);
-
-*/
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -93,5 +53,3 @@ const styles = StyleSheet.create({
     marginBottom: 5,
   },
 });
-
-//AppRegistry.registerComponent('SyncPOS', () => posApp);
