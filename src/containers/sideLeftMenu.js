@@ -8,6 +8,21 @@ import {
 } from 'react-native';
 import { Navigation } from 'react-native-navigation';
 export class sideLeftMenuScreen extends Component {
+  logout(){
+    this.props.navigator.toggleDrawer({
+      side: 'left', // the side of the drawer since you can have two, 'left' / 'right'
+      animated: true, // does the toggle have transition animation or does it happen immediately (optional)
+      to:'closed'
+    });
+    Navigation.showModal({
+      screen: "loginScreen", // unique ID registered with Navigation.registerScreen
+      title: "Login", // title of the screen as appears in the nav bar (optional)
+      passProps: {}, // simple serializable object that will pass as props to the modal (optional)
+      navigatorStyle: {}, // override the navigator style for the screen, see "Styling the navigator" below (optional)
+      navigatorButtons: {}, // override the nav buttons for the screen, see "Adding buttons to the navigator" below (optional)
+      animationType: 'slide-up' // 'none' / 'slide-up' , appear animation for the modal (optional, default 'slide-up')
+    });
+  }
   constructor(props){
     super(props);
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
@@ -51,7 +66,7 @@ export class sideLeftMenuScreen extends Component {
             <Button onPress={()=>this.gotoScreen('inventory')} title="inventory"/>
           </View>
           <View style={styles.menuOption}>
-            <Button onPress={()=>this.gotoScreen('logout')} title="logout"/>
+            <Button onPress={()=>this.logout('logout')} title="logout"/>
           </View>
         </View>
       </View>
