@@ -1,5 +1,7 @@
-react-native init AwesomeProject
-cd AwesomeProject
+This a Open Source Point Of Sales React Native Application.
+
+Using Redux,Wix/react-native-navigation for navigation.
+
 react-native run-android
 
 
