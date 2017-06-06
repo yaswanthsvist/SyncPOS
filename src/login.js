@@ -13,8 +13,11 @@ export class loginScreen extends Component {
     tabBarHidden: true,
     navBarHidden: true,
   };
-  constructor(props){
+  constructor(props,context){
     super(props);
+    console.log(this.props);
+    console.log(this.state);
+    console.log(context);
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
   }
   openMainApp(){
@@ -62,6 +65,7 @@ export class loginScreen extends Component {
           animationType: 'slide-down' // 'none' / 'slide-down' , dismiss animation for the modal (optional, default 'slide-down')
         });
         break;
+      }
   }
 
   onNavigatorEvent(event) {
@@ -102,6 +106,9 @@ export class loginScreen extends Component {
       </View>
     );
   }
+}
+loginScreen.contextTypes={
+  store:React.PropTypes.object
 }
 const styles = StyleSheet.create({
   container: {
