@@ -22,16 +22,6 @@ export default class inventoryScreen extends Component {
       backButtonHidden: true, // hide the back button altogether (optional)
     });
   }
-  logout(){
-    Navigation.startSingleScreenApp({
-      screen: {
-        screen: 'loginScreen', // unique ID registered with Navigation.registerScreen
-        navigatorStyle: {}, // override the navigator style for the screen, see "Styling the navigator" below (optional)
-        navigatorButtons: {} // override the nav buttons for the screen, see "Adding buttons to the navigator" below (optional)
-      }
-    });
-  }
-
   constructor(props){
     super(props);
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
@@ -52,10 +42,6 @@ export default class inventoryScreen extends Component {
             tabIndex: 1 // (optional) if missing, this screen's tab will become selected
            });
            break;
-        case "logout":
-           console.log("deeplink 'logout' in inventory");
-           this.logout();
-            break;
       }
     }
     switch(event.id) {
