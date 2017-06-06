@@ -2,44 +2,59 @@ import React, { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
+  ListView,
   Text,
   Button,
   View
 } from 'react-native';
 import { Navigation } from 'react-native-navigation';
-
+import {Product} from "./components/productRow";
 export default class posScreen extends Component {
-/*  static navigationOptions = {
-    tabBarLabel: 'POS'
-  };
-*/
   static navigatorStyle= {
     drawUnderTabBar: false,
     tabBarHidden: false
   } // override the navigator style for the pushed screen (optional)
   static navigatorButtons = { leftButtons: [ {
-   id: 'sideMenu',
+    id: 'sideMenu',
     icon:require('./assets/img/menu.png') } ] 
   };
-  
-  logout(){
-    Navigation.startSingleScreenApp({
-      screen: {
-        screen: 'loginScreen', // unique ID registered with Navigation.registerScreen
-        navigatorStyle: {}, // override the navigator style for the screen, see "Styling the navigator" below (optional)
-        navigatorButtons: {} // override the nav buttons for the screen, see "Adding buttons to the navigator" below (optional)
-      }
-    });
-  }
-  constructor(props){
+  constructor(props,{store}){
     super(props);
+    this.store=store;
     this.state = {showPage: false};
-    this.state.list=["cat","dog"];
+    this.list=["book","pen","axe","NATURAL B JAMUN Juice"];
+    this.unsubscribe=store.subscribe(this.renderProducts.bind(this))
+    this.list.map((product,index)=>{
+        store.dispatch({
+          type:"ADD_PRODUCT",
+          id:index,
+          name:product,
+          price:30
+        })      
+    })
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
-    if(props.loggedIn==false){
-      console.log("gotoScreen logout --force");
-//      this.gotoScreen();
-    }    
+  }  
+  renderProducts(){
+    const dataBlob=[];
+    const sectionIds=[];
+    const rowIds=[];
+    const products=this.store.getState().products;
+    for(let i=0;i<products.length;i++){
+      rowIds.push(`row:${i}`);
+      dataBlob[`row:${i}`]=products[i][0];
+    }
+    console.log(dataBlob);
+//    const getRowData = (dataBlob, ctionId, rowId) => dataBlob[`${rowId}`];
+    const ds = new ListView.DataSource({
+      rowHasChanged: (r1, r2) => r1 !== r2,
+    });
+
+    this.state = {
+//      products: ds.cloneWithRows(),
+        products: ds.cloneWithRows(products),
+    };
+    console.log(this.state.products);
+    //this.render();
   }
   onNavigatorEvent(event) {
     if(event.type=="DeepLink"){
@@ -55,9 +70,6 @@ export default class posScreen extends Component {
             tabIndex: 1 // (optional) if missing, this screen's tab will become selected
            });
            break;
-        case "logout":
-           this.logout('loginScreen');
-            break;
       }
     }
     switch(event.id) {
@@ -78,22 +90,18 @@ export default class posScreen extends Component {
     }
   }
   render() {
-  console.log("pos render")
-      if(this.props.loggedIn==false){
-        return (
-          <View/>
-          );
-      }
-
+    console.log("pos render")
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to POS
-        </Text>
-      </View>
+          <ListView dataSource={this.state.products}
+            renderRow={(rowData) =><Product product={rowData}/>}
+          />
     );
   }
 }
+posScreen.contextTypes={
+  store:React.PropTypes.object
+}
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
